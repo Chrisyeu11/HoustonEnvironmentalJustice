@@ -1,0 +1,117 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+/* Set up some basic styling for the page */
+body {
+
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #333;
+}
+
+/* Set the background color of the header and style the nav links */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: right;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+    nav a:hover {
+        color: #666;
+    }
+
+/* Style the button on the landing page */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    ;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+    .button:hover {
+        background-color: #006080;
+        cursor: pointer;
+    }
+
+/* Style the headings and text in each section of the page */
+section {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #008CBA;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Style the form in the Contact Us section */
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    display: block;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    ;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+    form input[type="submit"]:hover {
+        background-color: #006080;
+    }
+/* Style the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
