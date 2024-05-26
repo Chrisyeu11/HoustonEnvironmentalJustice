@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+/* styles.css */
+
+/* Reset some default styles */
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Top Bar Styling */
+.top-bar {
+    background-color: #a41c2c; /* Maroon color, adjust the hex value as needed */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.top-links, .top-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.top-links li, .top-icons li {
+    padding: 0 1rem;
+}
+
+.top-links a, .top-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+/* Main Navbar Styling */
+.navbar {
+    background-color: #7e0135; /* Dark maroon color, adjust the hex value as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.left-menu ul, .right-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo img {
+    height: 50px; /* Adjust based on your logo's aspect ratio */
+}
+
+/* Add additional styles for hover effects, active states, and responsive design */
+
+/* Page Title Styles */
+.page-title {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Photo Grid Styles */
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.photo-item {
+    width: 23%; /* Adjust the width for spacing */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.photo-item img {
+    width: 100%; /* Adjust image size as needed */
+    height: auto;
+    border: 1px solid #ddd; /* Add a border to the image */
+    padding: 5px;
+}
+
+.photo-item a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Subpage Link Section Styles */
+.subpage-link-section {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+}
+
+.subpage-links {
+    list-style: none;
+    padding: 0;
+}
+
+.subpage-links li {
+    margin-bottom: 5px;
+}
+
+.subpage-links li a {
+    color: #00f;
+    text-decoration: none;
+}
+
+.subpage-links li a:hover {
+    text-decoration: underline;
+}
+.discussion-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.discussion-threads {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px; /* Adjust based on your needs */
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+.post-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.post-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-form button:hover {
+    background-color: #0056b3;
+}
