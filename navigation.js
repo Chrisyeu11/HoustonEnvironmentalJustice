@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var topBarHtml = `
     <div class="top-bar">
         <ul class="top-links">
-            <li><a href="#">Students</a></li>
-            <li><a href="#">Faculty/Staff</a></li>
-            <li><a href="#">Alumni</a></li>
-            <li><a href="#">Visitors</a></li>
+            <li><a href="https://tsu.edu/information-for/students">Students</a></li>
+            <li><a href="https://tsu.edu/information-for/faculty-and-staff">Faculty/Staff</a></li>
+            <li><a href="https://tsu.edu/alumni/">Alumni</a></li>
+            <li><a href="https://tsu.edu/information-for/visitors">Visitors</a></li>
         </ul>
         <ul class="top-icons">
             <li><a href="#">MyTSU</a></li>
@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <nav class="navbar">
         <div class="left-menu">
             <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">ADMISSIONS</a></li>
-                <li><a href="#">ACADEMICS</a></li>
-                <li><a href="#">ATHLETICS</a></li>
-                <li><a href="#">CAMPUS LIFE</a></li>
+                <li><a href="https://tsu.edu/about/">ABOUT</a></li>
+                <li><a href="https://tsu.edu/admissions/">ADMISSIONS</a></li>
+                <li><a href="https://tsu.edu/academics/">ACADEMICS</a></li>
+                <li><a href="https://tsu.edu/academics/">ATHLETICS</a></li>
+                <li><a href="https://tsu.edu/students-services/">CAMPUS LIFE</a></li>
                 <li><a href="discussion-board.html">DISCUSSION BOARD</a></li> <!-- Added link to Discussion Board -->
             </ul>
         </div>
@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         <div class="right-menu">
             <ul>
-                <li><a href="#">TSU ONLINE</a></li>
-                <li><a href="#">INSTITUTIONAL EVENTS</a></li>
+                <li><a href="https://tsu.edu/">TSU ONLINE</a></li>
+                <li><a href="https://tsu.edu/institutional-events/">INSTITUTIONAL EVENTS</a></li>
             </ul>
         </div>
     </nav>`;
